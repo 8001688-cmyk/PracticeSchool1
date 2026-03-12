@@ -43,6 +43,9 @@
     <Compile Include="MyApp1\apps.py" />
     <Compile Include="MyApp1\migrations\__init__.py" />
     <Compile Include="MyApp1\models.py" />
+    <Compile Include="MyApp1\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MyApp1\tests.py" />
     <Compile Include="MyApp1\views.py" />
     <Compile Include="MyApp1\__init__.py" />
@@ -54,6 +57,7 @@
   <ItemGroup>
     <Content Include="HelloDjangoApp\templates\HelloDjangoApp\index.html" />
     <Content Include="MyApp1\templates\MyApp1\index.html" />
+    <Content Include="MyApp1\templates\MyApp1\input.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>

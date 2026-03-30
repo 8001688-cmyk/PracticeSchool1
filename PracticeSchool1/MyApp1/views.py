@@ -23,3 +23,11 @@ def input_view(request):
         form = InputForm()
 
     return render(request, "MyApp1/input.html", {"form": form})
+
+# delete teachers
+
+
+def delete_teacher(request, teacher_id):
+    t = teacher.objects.get(id=teacher_id)
+    t.delete()
+    return redirect("index")
